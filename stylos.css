@@ -1,0 +1,84 @@
+.background-image {
+    background-image: url(Imagenes/back\ 2.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat; 
+    height: 100vh; 
+    width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:25px;
+}
+
+.card {
+    width: calc(50% - 0.25%);
+    margin-bottom: 10px;
+    background-color: #f00d0d;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid hsl(253, 91%, 47%);
+    border-radius: 8px;
+}
+
+.card:nth-child(odd) {
+    margin-right:10px;
+}
+
+.card:nth-child(even) {
+    margin-left: 10px;
+}
+
+.containertabla{
+    display: flex;
+    position: fixed;
+    right: 100px;
+    top: 200px;
+    background-color: #f1a642;
+    border: 1px solid #3b2f2f;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    padding:10px;
+}
+
+#mi-titulo {
+    color: #ebebeb; 
+    padding:50px;
+}
+#mi-subtitulo {
+    color: #ebebeb; 
+    padding:100px;
+}
+
+.btn-primary {
+    background-color: #FFA500 !important; 
+    border-color: #FFA500 !important; 
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #FF8C00 !important; 
+    border-color: #FF8C00 !important; 
+}
+
+
+#clima-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    position: fixed;
+    right: 50px;
+    top: 100px;
+    background-color: #f1a642;
+    border: 1px solid #3b2f2f;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+
+}
